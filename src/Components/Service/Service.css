@@ -1,0 +1,11 @@
+
+.home-service :hover{
+    transform: scale(1.02);
+    transition: transform 1.5s linear;
+}
+
+.home-service img{
+    border-radius: 10px;
+}
+
+

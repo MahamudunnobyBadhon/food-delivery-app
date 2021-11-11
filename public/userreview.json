@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim",
+    "department": "Excellent",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjhBaCE6_IlqbjxTdth5Hm0mccqejntA2XA&usqp=CAU",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Karim",
+    "department": "Mind Blowing",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRna0Yn_AMMEcnVGFuHNG0-UENJAFjsGKO8RQ&usqp=CAU",
+    "rating": 4.4
+  },
+  {
+    "id": 3,
+    "name": "Selim",
+    "department": "Great Work",
+    "img": "https://static2.gensler.com/uploads/person/1348/thumbnail_square/thumbs/people-Shravan-Bendapudi-508x508_1602772186_508x508.jpg",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Malek",
+    "department": "Great",
+    "img": "https://api.time.com/wp-content/uploads/2014/05/166259035.jpg?w=824&quality=70",
+    "rating": 4.3
+  }
+]

@@ -1,0 +1,13 @@
+.order-food form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-food form input{
+    width: 60%;
+    margin-bottom: 20px;
+}
