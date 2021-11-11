@@ -34,28 +34,6 @@ const Banner = () => {
                 <span className="visually-hidden">Next</span>
             </button>
             </div>
-        // <div className="banner-doctor">
-        //         {/* <div className="top-banner-text">
-                
-        //             <h4> Welcome to <span style={{
-        //                 color: "red"
-        //             }}> Best Care</span></h4>
-
-        //             <h5>We are here for your care</h5>
-        //             <h5>We provide best medical Supports</h5>
-        //         </div> */}
-
-        //             {/* <div className="col-6">
-
-        //             </div>
-        //             <div style={{}}className="col-6 d-block text-center align-items-center jutify-content-center flex-direction-row">
-                    
-        //             </div> */}
-        //         <img style={{
-        //             width: '100%'
-        //         }}rc={bannerDoctor} alt="" />
-            
-        // </div>
     );
 };
 

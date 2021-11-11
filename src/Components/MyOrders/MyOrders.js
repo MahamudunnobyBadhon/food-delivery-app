@@ -17,7 +17,7 @@ const MyOrders = () => {
         .then(res => res.json())
         .then(data => setServices(data))
         
-    },[,services, control])
+    },[user, control])
 
     const handleDelete = id =>{
         const proceed = window.confirm('are you sure want to delete?');
@@ -43,7 +43,7 @@ const MyOrders = () => {
 
            <h2 className="text-center">My Orders:</h2> 
            {
-               services.length > 0 &&
+               services.length > 0 ?
                <>
                <div className="row row-cols-1 row-cols-md-2 g-4">
                 {
@@ -68,14 +68,11 @@ const MyOrders = () => {
 
                 
                 </div>
-               </>
+               </> :  <><h3 className="text-center">No Order yet!!</h3>
+                    <img className="d-flex justify-content-center mx-auto" src={opps} alt=""></img></>
            }
 
-                {
-                    services.length  === 0 && <><h3 className="text-center">No Order yet!!</h3>
-                    <img className="d-flex justify-content-center mx-auto" src={opps} alt=""></img></>
-                }
-
+                
 
            <Footer></Footer>
            <BottomPart></BottomPart>

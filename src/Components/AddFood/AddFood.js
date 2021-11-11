@@ -1,7 +1,4 @@
 import React from 'react';
-import BottomPart from '../BottomPart/BottomPart';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import { useForm } from "react-hook-form";
 import './AddFood.css';
 import axios from 'axios';
